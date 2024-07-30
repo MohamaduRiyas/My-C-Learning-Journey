@@ -1,0 +1,34 @@
+#include<iostream>
+int main()
+{
+    
+    int mark1,mark2,mark3,total; // Initialize the marks..
+    
+    int age;
+    
+    std::string name;
+    
+    std::cout<<"Enter Your Name:";
+    std::cin>>name;
+    
+    std::cout<<"Enter Your Age:";
+    std::cin>>age;
+    
+    std::cout<<"Enter Your Mark 1:";
+    std::cin>>mark1;
+    
+    
+    std::cout<<"Enter Your Mark 2:";
+    std::cin>>mark2;
+    
+    
+    std::cout<<"Enter Your Mark 3:";
+    std::cin>>mark3;
+    
+    total = (mark1+mark2+mark3)/3;
+    
+    std::cout<<"Total Marks are:"<<total;
+    
+    
+    
+}
